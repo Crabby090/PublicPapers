@@ -201,6 +201,10 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Project data (store large/raw datasets outside git)
+/papers/**/data/raw/
+/papers/**/data/quant/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

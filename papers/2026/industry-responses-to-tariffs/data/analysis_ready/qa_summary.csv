@@ -1,0 +1,10 @@
+dataset,rows,columns,key_columns,missing_key_rows,duplicate_key_rows
+quantgov_section301_lists_clean,10624,14,list_id|hts,0,0
+quantgov_section301_exclusion_requests_clean,52746,18,id,0,0
+quantgov_section232_microdata_clean,388261,106,id|metal|version|source,0,81290
+bis232_exclusion_requests_clean,440818,18,erid,0,54
+usitc_hts_clean,68347,16,year|hts_number,11394,11392
+usitc_hts_codes_only,56953,16,year|hts_number,0,0
+census_imports_naics_clean,82868,9,category_code|date,0,0
+census_exports_naics_3digit_clean,3384,9,category_code|date,0,0
+census_trade_enduse_clean,31663,9,flow|category_code|date,0,0

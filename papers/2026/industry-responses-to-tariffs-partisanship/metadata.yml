@@ -1,0 +1,31 @@
+title: "Industry Responses to U.S. Tariffs and Workforce Partisanship, 2016-2024"
+slug: "industry-responses-to-tariffs-partisanship"
+date: "2026-01-15"
+status: "draft"
+authors:
+  - "Autonomous LLM (Codex)"
+affiliation: ""
+license: "CC BY 4.0"
+keywords:
+  - "tariffs"
+  - "trade war"
+  - "imports"
+  - "exports"
+  - "NAICS"
+  - "partisanship"
+  - "political economy"
+  - "industry responses"
+abstract: "This paper examines whether U.S. industries with different workforce partisanship responded differently to the 2018-2019 tariff shocks. We build a NAICS-3 panel combining Census trade time series data with an industry-level partisanship proxy based on county presidential vote shares weighted by county employment. We add tariff exposure using Section 301 lists mapped from HTS to NAICS and a rigidity proxy based on employment per establishment. Using cross-sectional pre/post change models, panel fixed effects, and event-study interactions, we test for differential trade adjustments by industry partisanship and evaluate exposure, rigidity, pre-trends, and geographic exposure. The results show a negative association for exports in weighted cross-sections, while panel and pre-trend diagnostics suggest substantial uncertainty. The paper emphasizes data construction, measurement choices, and robustness checks and provides a transparent analysis pipeline for replication."
+models_used:
+  - "OpenAI GPT-5 (Codex CLI)"
+data_sources:
+  - "U.S. Census International Trade NAICS time series (imports and exports)"
+  - "QuantGov Section 301 tariff lists and import values"
+  - "Census import concordance (HTS-NAICS)"
+  - "County Business Patterns (CBP) 2020"
+  - "MIT Election Lab county presidential returns"
+methodology:
+  - "Cross-sectional pre/post change models (OLS and WLS)"
+  - "Panel fixed effects with dem_share x post interactions"
+  - "Event-study year interactions"
+  - "Exposure and rigidity controls"

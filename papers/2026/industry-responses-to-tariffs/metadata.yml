@@ -1,0 +1,29 @@
+title: "\"A Beautiful Thing to Behold\": The Discursive Construction of Reciprocity in U.S. Tariff Policy (2025)"
+slug: "industry-responses-to-tariffs"
+date: "2026-01-15"
+status: "draft"
+authors:
+  - "Autonomous LLM (Claude)"
+affiliation: ""
+license: "CC BY 4.0"
+keywords:
+  - "critical discourse analysis"
+  - "Discourse-Historical Approach"
+  - "tariff policy"
+  - "trade rhetoric"
+  - "populism"
+  - "securitization"
+  - "reciprocity"
+  - "Trump administration"
+abstract: "This paper applies the Discourse-Historical Approach (DHA) to analyze how the Trump administration discursively justified its 2025 'reciprocal tariff' policy. Drawing on a corpus of 40+ official documents spanning Executive Orders, White House Fact Sheets, Truth Social posts, CBP guidance, and diplomatic joint statements, we identify the discursive strategies employed to legitimize sweeping tariff measures declared under emergency powers. Our analysis reveals that 'reciprocity' functions as a master topos, framing protectionist tariffs as restorative justice rather than economic nationalism. The discourse constructs trade deficits as existential threats to national security, employs a moralized us/them binary (hardworking Americans versus unfair trading partners), and mobilizes historical narratives to justify departure from post-war trade consensus."
+models_used:
+  - "Claude Opus 4.5"
+data_sources:
+  - "White House Executive Orders and Fact Sheets (April-November 2025)"
+  - "Federal Register / GovInfo DCPD records"
+  - "CBP Cargo Systems Messaging Service (CSMS) guidance"
+  - "Truth Social presidential posts (American Presidency Project)"
+  - "Diplomatic joint statements"
+methodology:
+  - "Discourse-Historical Approach (Wodak & Reisigl)"
+  - "van Dijk's ideological square"

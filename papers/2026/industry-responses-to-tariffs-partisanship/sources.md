@@ -1,0 +1,23 @@
+# Sources
+
+Use numeric ids [1], [2], ... and cite them in `paper.md`.
+
+[1] Fajgelbaum, Pablo D., Pinelopi K. Goldberg, Patrick J. Kennedy, and Amit K. Khandelwal. "The Return to Protectionism." NBER Working Paper 25638, March 2019. https://www.nber.org/papers/w25638. Accessed 2026-01-15.
+[2] Amiti, Mary, Stephen J. Redding, and David Weinstein. "The Impact of the 2018 Trade War on U.S. Prices and Welfare." NBER Working Paper 25672, March 2019. https://www.nber.org/papers/w25672. Accessed 2026-01-15.
+[3] Amiti, Mary, Stephen J. Redding, and David E. Weinstein. "Who's Paying for the US Tariffs... A Longer-Term Perspective." NBER Working Paper 26610, January 2020. https://www.nber.org/papers/w26610. Accessed 2026-01-15.
+[4] Cavallo, Alberto, Gita Gopinath, Brent Neiman, and Jenny Tang. "Tariff Pass-Through at the Border and at the Store: Evidence from US Trade Policy." NBER Working Paper 26396, October 2019. https://www.nber.org/papers/w26396. Accessed 2026-01-15.
+[5] Fetzer, Thiemo, and Carlo Schwarz. "Tariffs and Politics: Evidence from Trump's Trade Wars." *The Economic Journal* 131, no. 636 (May 2021): 1717-1741. https://doi.org/10.1093/ej/ueaa122. Accessed 2026-01-15.
+[6] Grossman, Gene M., and Elhanan Helpman. "Protection for Sale." *American Economic Review* 84, no. 4 (September 1994): 833-850. https://ideas.repec.org/a/aea/aecrev/v84y1994i4p833-50.html. Accessed 2026-01-15.
+[7] Mayer, Wolfgang. "Endogenous Tariff Formation." *American Economic Review* 74, no. 5 (December 1984): 970-985. https://ideas.repec.org/a/aea/aecrev/v74y1984i5p970-85.html. Accessed 2026-01-15.
+[8] Stolper, Wolfgang F., and Paul A. Samuelson. "Protection and Real Wages." *The Review of Economic Studies* 9, no. 1 (November 1941): 58-73. https://academic.oup.com/restud/issue/9/1. Accessed 2026-01-15.
+[9] Mussa, Michael. "Tariffs and the Distribution of Income: The Importance of Factor Specificity, Substitutability, and Intensity in the Short and Long Run." *Journal of Political Economy* 82, no. 6 (Nov.-Dec. 1974): 1191-1203. https://ideas.repec.org/a/ucp/jpolec/v82y1974i6p1191-1203.html. Accessed 2026-01-15.
+[10] Rogowski, Ronald. *Commerce and Coalitions: How Trade Affects Domestic Political Alignments.* Princeton: Princeton University Press, 1989. https://www.degruyterbrill.com/document/doi/10.1515/9780691219431/html. Accessed 2026-01-15.
+[11] Hiscox, Michael J. "Class Versus Industry Cleavages: Inter-Industry Factor Mobility and the Politics of Trade." *International Organization* 55, no. 1 (Winter 2001): 1-46. https://www.cambridge.org/core/journals/international-organization/article/class-versus-industry-cleavages-interindustry-factor-mobility-and-the-politics-of-trade/2F2F8B7EAA64ED2ECAC8529BFC9243BF. Accessed 2026-01-15.
+[12] U.S. Census Bureau. "International Trade: Imports (NAICS) Time Series API." https://api.census.gov/data/timeseries/intltrade/imports/naics.html. Accessed 2026-01-15.
+[13] U.S. Census Bureau. "International Trade: Exports (NAICS) Time Series API." https://api.census.gov/data/timeseries/intltrade/exports/naics.html. Accessed 2026-01-15.
+[14] QuantGov. "Tariff and Exclusion Data Downloads (Section 301 and Section 232)." https://quantgov.org/tariffdata/downloads. Accessed 2026-01-15.
+[15] U.S. Census Bureau. "Import Concordance (2019) (impconcord2019.xls)." Local file: papers/2026/industry-responses-to-tariffs/data/raw/concordance/impconcord2019.xls. Accessed 2026-01-15.
+[16] U.S. Census Bureau. "County Business Patterns (2020) - County Data (cbp20co.zip)." https://www2.census.gov/programs-surveys/cbp/datasets/2020/cbp20co.zip. Accessed 2026-01-15.
+[17] MIT Election Lab. "County Presidential Election Returns 2000-2024." Harvard Dataverse. DOI:10.7910/DVN/VOQCHQ. https://doi.org/10.7910/DVN/VOQCHQ. Accessed 2026-01-15.
+[18] Author calculations. "Industry responses to tariffs: analysis outputs and hypothesis tests." Local files: papers/2026/industry-responses-to-tariffs/data/analysis_ready/hypothesis_full/ (cross_section_summary.csv, cross_section_regressions.csv, panel_post_effects.csv, event_study_year_interactions.csv) and papers/2026/industry-responses-to-tariffs/data/analysis_ready/hypothesis_1_2_5_6/ (controls_regressions.csv, controls_correlations.csv, pretrend_event_study_2012_2017.csv, county_exposure_correlation.csv). Accessed 2026-01-15.
+[19] Author calculations. "Additional robustness checks for industry responses to tariffs." Local files: papers/2026/industry-responses-to-tariffs-partisanship/data/robustness/ (robustness_regressions.csv, leave_one_out_exports.csv, leave_one_out_exports_summary.csv). Accessed 2026-01-15.

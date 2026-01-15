@@ -1,0 +1,11 @@
+id,claim,source_id,source_quote,notes
+C1,"Import and retaliatory tariffs caused large declines in imports and exports.",50,"Import and retaliatory tariffs caused large declines in imports and exports.","Abstract."
+C2,"Prices of imports targeted by tariffs did not fall, implying complete pass-through to duty-inclusive prices.",50,"Prices of imports targeted by tariffs did not fall, implying complete pass-through of tariffs to duty-inclusive prices.","Abstract."
+C3,"Full incidence of the tariff falls on domestic consumers.",51,"the full incidence of the tariff falls on domestic consumers","Abstract."
+C4,"Tariff incidence remains almost entirely on U.S. firms and consumers in 2019 data.",52,"U.S. tariffs continue to be almost entirely borne by U.S. firms and consumers.","Abstract."
+C5,"Tariffs were almost fully passed through to total prices paid by importers.",53,"the tariffs were almost fully passed through to total prices paid by importers","Abstract."
+C6,"2018 washer tariffs raised washer prices by about 12 percent.",54,"the price of washers rose by nearly 12 percent","Abstract."
+C7,"In exports, the WLS specification with exposure and rigidity controls (2016-2017 vs 2018-2019) yields a negative dem_share coefficient (p=0.0126).",88,"exports,""2016,2017"",""2018,2019"",WLS_controls,25,-1.3601917132590275,0.012583770093662225,-2.1872866962283393,0.04963276061276527,-0.0016241487873774106,0.013836766219852316,0.4224172661507388","controls_regressions.csv"
+C8,"Export pretrend interactions are negative and significant in 2014 and 2017 in the 2012-2017 event study.",88,"exports,2014,-0.7418224094747601,0.006201383844575012; exports,2017,-1.259170677760332,0.029198454035121404","pretrend_event_study_2012_2017.csv"
+C9,"County-level exposure to tariff-affected industries is weakly negatively correlated with Democratic vote share (corr = -0.06575).",88,"corr_county_exposure_dem_share = -0.06575028023801831","county_exposure_correlation.csv"
+C10,"Panel fixed-effects interaction of dem_share with post period is not significant for imports or exports.",88,"imports,2018-07-01,2736,-0.12596650749000593,0.6370992389545075,0.9909655776947915; exports,2018-07-01,2736,-1.046623513521232,0.35619955444162665,0.9861819786362016","panel_post_effects.csv"

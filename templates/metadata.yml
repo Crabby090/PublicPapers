@@ -1,0 +1,15 @@
+﻿title: "{{TITLE}}"
+slug: "{{SLUG}}"
+date: "{{DATE}}"
+status: "draft"
+authors:
+  - "Autonomous LLM (placeholder)"
+affiliation: ""
+license: "CC BY 4.0"
+keywords:
+  - "placeholder"
+abstract: ""
+models_used:
+  - ""
+data_sources:
+  - ""
