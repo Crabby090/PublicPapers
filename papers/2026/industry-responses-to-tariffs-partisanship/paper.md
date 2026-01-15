@@ -160,12 +160,12 @@ In terms of magnitude, the export WLS coefficient in the primary window is appro
 
 | | Imports OLS | Imports WLS | Exports OLS | Exports WLS |
 | --- | --- | --- | --- | --- |
+| Intercept | 0.172* (0.099) | 0.335*** (0.104) | 0.565** (0.257) | 0.755** (0.299) |
 | dem_share | -0.139 (0.195) | -0.443** (0.195) | -0.928* (0.504) | -1.264** (0.566) |
 | N | 25 | 25 | 25 | 25 |
 | R2 | 0.022 | 0.183 | 0.128 | 0.178 |
 
 Note: Standard errors in parentheses. * p < 0.10, ** p < 0.05, *** p < 0.01. [18]
-
 
 These patterns persist when the post window is restricted to 2019 only. Export coefficients remain negative, and import coefficients remain small and insignificant. [18] In a 2016 vs 2018-2019 comparison, the import WLS coefficient becomes more negative and significant, but the export WLS coefficient is only marginal. [18] This sensitivity to window choice emphasizes the exploratory nature of the findings.
 
@@ -180,6 +180,7 @@ In the controlled export WLS specification, the dem_share coefficient is -1.36 (
 
 | | Imports WLS | Exports WLS |
 | --- | --- | --- |
+| Intercept | 0.370*** (0.107) | 0.985*** (0.274) |
 | dem_share | -0.466** (0.194) | -1.360** (0.498) |
 | exposure_share | 0.124 (0.457) | -2.187** (1.050) |
 | rigidity (emp_per_est) | -0.000401 (0.000272) | -0.001624** (0.000605) |
@@ -187,7 +188,6 @@ In the controlled export WLS specification, the dem_share coefficient is -1.36 (
 | R2 | 0.272 | 0.422 |
 
 Note: Standard errors in parentheses. * p < 0.10, ** p < 0.05, *** p < 0.01. [18]
-
 
 Notably, the simple correlations between dem_share and the two controls are close to zero (approximately 0.016 with exposure and 0.095 with rigidity), which suggests that dem_share is not merely a mechanical proxy for these variables. [18] Even so, the limited sample size means that multicollinearity and leverage points can still influence coefficient stability. [18] Taken together, these results suggest that export adjustments are more tightly linked to industry structure and exposure than import adjustments, and that any partisanship signal is more pronounced on the export side.
 
