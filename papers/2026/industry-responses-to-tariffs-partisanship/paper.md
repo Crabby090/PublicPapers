@@ -156,16 +156,16 @@ Given the small cross-sectional sample, we interpret p-values cautiously and foc
 The baseline cross-sectional tests (N = 25 NAICS-3 industries in the main windows) show that the dem_share coefficient is generally negative in exports and close to zero in imports. [18] In the primary 2016-2017 vs 2018-2019 window, the export WLS coefficient is negative and statistically significant, while the import WLS coefficient is negative but not robust across specifications. [18] This suggests that, in trade-weighted terms, Democratic-leaning industries experienced smaller export adjustments rather than larger ones, contrary to the initial hypothesis.
 In terms of magnitude, the export WLS coefficient in the primary window is approximately -1.26 (p = 0.036), indicating that a higher dem_share is associated with a smaller absolute log adjustment in exports when weighting by pre-period trade value. [18] The comparable import WLS coefficient in the same window is about -0.44 (p = 0.033), but this effect is not stable across alternative windows and disappears in some specifications, suggesting that the import relationship is fragile. [18] These coefficients should be interpreted as descriptive associations rather than causal effects, especially given the small cross-sectional sample and the pre-trend evidence discussed below. [18]
 
-**Table 1. Cross-sectional WLS dem_share coefficients across windows.** [18]
+**Table 1. Cross-sectional regressions (abs log change, 2016-2017 vs 2018-2019).** [18]
 
-| Outcome | Pre window | Post window | dem_share coef | p-value | N |
-| --- | --- | --- | --- | --- | --- |
-| exports | 2016 | 2018-2019 | -1.470 | 0.062 | 25 |
-| imports | 2016 | 2018-2019 | -0.718 | 0.007 | 25 |
-| exports | 2016-2017 | 2018-2019 | -1.264 | 0.036 | 25 |
-| imports | 2016-2017 | 2018-2019 | -0.443 | 0.033 | 25 |
-| exports | 2016-2017 | 2019 | -1.414 | 0.030 | 25 |
-| imports | 2016-2017 | 2019 | -0.302 | 0.207 | 25 |
+| | Imports OLS | Imports WLS | Exports OLS | Exports WLS |
+| --- | --- | --- | --- | --- |
+| dem_share | -0.139 (0.195) | -0.443** (0.195) | -0.928* (0.504) | -1.264** (0.566) |
+| N | 25 | 25 | 25 | 25 |
+| R2 | 0.022 | 0.183 | 0.128 | 0.178 |
+
+Note: Standard errors in parentheses. * p < 0.10, ** p < 0.05, *** p < 0.01. [18]
+
 
 These patterns persist when the post window is restricted to 2019 only. Export coefficients remain negative, and import coefficients remain small and insignificant. [18] In a 2016 vs 2018-2019 comparison, the import WLS coefficient becomes more negative and significant, but the export WLS coefficient is only marginal. [18] This sensitivity to window choice emphasizes the exploratory nature of the findings.
 
@@ -176,12 +176,17 @@ When exposure_share and rigidity are added (H1/H2), the export WLS dem_share coe
 By contrast, imports remain largely insignificant in these controlled specifications. [18]
 In the controlled export WLS specification, the dem_share coefficient is -1.36 (p = 0.0126), exposure_share is -2.19 (p = 0.0496), and rigidity is -0.00162 (p = 0.0138). [18] These estimates imply that export adjustments are smaller in more exposed and more rigid industries, and that the negative dem_share association persists even after accounting for these controls. [18] Import specifications with the same controls show small and statistically insignificant coefficients, reinforcing the asymmetry between import and export responses. [18]
 
-**Table 2. WLS controls (2016-2017 vs 2018-2019) coefficients.** [18]
+**Table 2. WLS controls (abs log change, 2016-2017 vs 2018-2019).** [18]
 
-| Outcome | dem_share coef (p) | exposure_share coef (p) | rigidity coef (p) | N |
-| --- | --- | --- | --- | --- |
-| exports | -1.360 (0.013) | -2.187 (0.050) | -0.0016 (0.014) | 25 |
-| imports | -0.466 (0.025) | 0.124 (0.789) | -0.0004 (0.156) | 25 |
+| | Imports WLS | Exports WLS |
+| --- | --- | --- |
+| dem_share | -0.466** (0.194) | -1.360** (0.498) |
+| exposure_share | 0.124 (0.457) | -2.187** (1.050) |
+| rigidity (emp_per_est) | -0.000401 (0.000272) | -0.001624** (0.000605) |
+| N | 25 | 25 |
+| R2 | 0.272 | 0.422 |
+
+Note: Standard errors in parentheses. * p < 0.10, ** p < 0.05, *** p < 0.01. [18]
 
 
 Notably, the simple correlations between dem_share and the two controls are close to zero (approximately 0.016 with exposure and 0.095 with rigidity), which suggests that dem_share is not merely a mechanical proxy for these variables. [18] Even so, the limited sample size means that multicollinearity and leverage points can still influence coefficient stability. [18] Taken together, these results suggest that export adjustments are more tightly linked to industry structure and exposure than import adjustments, and that any partisanship signal is more pronounced on the export side.
@@ -191,14 +196,15 @@ Notably, the simple correlations between dem_share and the two controls are clos
 Panel fixed-effects results (2,736 industry-month observations per specification) do not show statistically significant dem_share x post interactions for either imports or exports. [18] This indicates that, once industry fixed effects and common time shocks are controlled for, there is no robust evidence of differential post-tariff shifts by workforce partisanship.
 For example, using a post period starting July 2018, the import interaction coefficient is approximately -0.126 (p = 0.637) and the export interaction coefficient is about -1.05 (p = 0.356). [18] Starting the post period in 2019 yields similarly insignificant estimates. [18] These results indicate that any cross-sectional association does not translate into a stable within-industry shift once fixed effects absorb time-invariant differences. [18]
 
-**Table 3. Panel fixed-effects dem_share x post interactions.** [18]
+**Table 3. Panel fixed-effects dem_share x post (clustered SEs).** [18]
 
-| Outcome | Post start | dem_share x post coef | p-value | N |
+| | Imports 2018-07 | Exports 2018-07 | Imports 2019-01 | Exports 2019-01 |
 | --- | --- | --- | --- | --- |
-| exports | 2018-07-01 | -1.047 | 0.356 | 2736 |
-| imports | 2018-07-01 | -0.126 | 0.637 | 2736 |
-| exports | 2019-01-01 | -0.960 | 0.365 | 2736 |
-| imports | 2019-01-01 | -0.142 | 0.618 | 2736 |
+| dem_share x post | -0.126 (0.267) | -1.047 (1.134) | -0.142 (0.284) | -0.960 (1.060) |
+| N | 2736 | 2736 | 2736 | 2736 |
+| R2 | 0.991 | 0.986 | 0.991 | 0.986 |
+
+Note: Clustered standard errors by NAICS3 in parentheses. * p < 0.10, ** p < 0.05, *** p < 0.01. [18]
 
 
 ### 5.4 Event studies and pre-trends
