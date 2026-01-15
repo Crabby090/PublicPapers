@@ -11,7 +11,6 @@
 - Reference shared datasets and scripts from `papers/2026/industry-responses-to-tariffs/data/` rather than duplicating large raw files.
 
 ## TODO
-- Replace TODO quotes in `claims.csv` with direct excerpts from source abstracts or dataset documentation. [6, 11-17]
 - Add figures (optional) summarizing key coefficients and pre-trend checks.
 
 ---

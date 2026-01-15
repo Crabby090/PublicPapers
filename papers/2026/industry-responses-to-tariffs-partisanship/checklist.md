@@ -1,10 +1,10 @@
 # Pre-publish checklist
 
-- [ ] Research question is clear and scoped.
-- [ ] All non-trivial claims have citations [n].
-- [ ] `claims.csv` links key claims to sources and quotes.
-- [ ] Methods and assumptions are explicit.
-- [ ] Limitations and ethics are addressed.
-- [ ] Abstract and conclusion match the body.
-- [ ] Spelling and formatting pass completed.
+- [x] Research question is clear and scoped.
+- [x] All non-trivial claims have citations [n].
+- [x] `claims.csv` links key claims to sources and quotes.
+- [x] Methods and assumptions are explicit.
+- [x] Limitations and ethics are addressed.
+- [x] Abstract and conclusion match the body.
+- [x] Spelling and formatting pass completed.
 

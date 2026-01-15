@@ -6,7 +6,7 @@
 
 ## Abstract
 
-This paper asks whether U.S. industries with different workforce partisanship responded differently to the 2018-2019 tariff shocks. We construct a NAICS-3 panel that combines Census imports and exports time series with a novel industry-level partisanship proxy derived from county presidential vote shares weighted by County Business Patterns employment. We then overlay Section 301 tariff exposure by mapping HTS codes to NAICS using the Census import concordance, and include a rigidity proxy based on employment per establishment. Using cross-sectional pre/post change models (OLS and WLS), panel fixed effects, and event-study interactions, we test whether Democratic-leaning industries exhibit larger trade adjustments. The cross-sectional export results show a negative dem_share association in weighted specifications, while imports are largely insignificant; after exposure and rigidity controls, export WLS coefficients remain negative and significant. However, panel fixed-effects estimates are not significant, and pre-trend diagnostics reveal significant differential trends in exports, which weakens causal interpretation. We therefore treat the evidence as exploratory and emphasize data construction, measurement choices, and robustness checks. The analysis contributes a transparent dataset and offers a structured way to link political-economy theory to observed trade responses across industries.
+This paper asks whether U.S. industries with different workforce partisanship responded differently to the 2018-2019 tariff shocks. We construct a NAICS-3 panel that combines Census imports and exports time series with a novel industry-level partisanship proxy derived from county presidential vote shares weighted by County Business Patterns employment. [12, 13, 16, 17] We then overlay Section 301 tariff exposure by mapping HTS codes to NAICS using the Census import concordance, and include a rigidity proxy based on employment per establishment. [12, 14, 15, 16] Using cross-sectional pre/post change models (OLS and WLS), panel fixed effects, and event-study interactions, we test whether Democratic-leaning industries exhibit larger trade adjustments. [18] The cross-sectional export results show a negative dem_share association in weighted specifications, while imports are largely insignificant; after exposure and rigidity controls, export WLS coefficients remain negative and significant. [18] However, panel fixed-effects estimates are not significant, and pre-trend diagnostics reveal significant differential trends in exports, which weakens causal interpretation. [18] We therefore treat the evidence as exploratory and emphasize data construction, measurement choices, and robustness checks. [18] The analysis contributes a transparent dataset and offers a structured way to link political-economy theory to observed trade responses across industries. [18]
 
 **Keywords**: tariffs, trade war, NAICS, partisanship, political economy, imports, exports
 **JEL Codes**: F13, F14, D72
@@ -156,6 +156,17 @@ Given the small cross-sectional sample, we interpret p-values cautiously and foc
 The baseline cross-sectional tests (N = 25 NAICS-3 industries in the main windows) show that the dem_share coefficient is generally negative in exports and close to zero in imports. [18] In the primary 2016-2017 vs 2018-2019 window, the export WLS coefficient is negative and statistically significant, while the import WLS coefficient is negative but not robust across specifications. [18] This suggests that, in trade-weighted terms, Democratic-leaning industries experienced smaller export adjustments rather than larger ones, contrary to the initial hypothesis.
 In terms of magnitude, the export WLS coefficient in the primary window is approximately -1.26 (p = 0.036), indicating that a higher dem_share is associated with a smaller absolute log adjustment in exports when weighting by pre-period trade value. [18] The comparable import WLS coefficient in the same window is about -0.44 (p = 0.033), but this effect is not stable across alternative windows and disappears in some specifications, suggesting that the import relationship is fragile. [18] These coefficients should be interpreted as descriptive associations rather than causal effects, especially given the small cross-sectional sample and the pre-trend evidence discussed below. [18]
 
+**Table 1. Cross-sectional WLS dem_share coefficients across windows.** [18]
+
+| Outcome | Pre window | Post window | dem_share coef | p-value | N |
+| --- | --- | --- | --- | --- | --- |
+| exports | 2016 | 2018-2019 | -1.470 | 0.062 | 25 |
+| imports | 2016 | 2018-2019 | -0.718 | 0.007 | 25 |
+| exports | 2016-2017 | 2018-2019 | -1.264 | 0.036 | 25 |
+| imports | 2016-2017 | 2018-2019 | -0.443 | 0.033 | 25 |
+| exports | 2016-2017 | 2019 | -1.414 | 0.030 | 25 |
+| imports | 2016-2017 | 2019 | -0.302 | 0.207 | 25 |
+
 These patterns persist when the post window is restricted to 2019 only. Export coefficients remain negative, and import coefficients remain small and insignificant. [18] In a 2016 vs 2018-2019 comparison, the import WLS coefficient becomes more negative and significant, but the export WLS coefficient is only marginal. [18] This sensitivity to window choice emphasizes the exploratory nature of the findings.
 
 ### 5.2 Exposure and rigidity controls
@@ -165,6 +176,14 @@ When exposure_share and rigidity are added (H1/H2), the export WLS dem_share coe
 By contrast, imports remain largely insignificant in these controlled specifications. [18]
 In the controlled export WLS specification, the dem_share coefficient is -1.36 (p = 0.0126), exposure_share is -2.19 (p = 0.0496), and rigidity is -0.00162 (p = 0.0138). [18] These estimates imply that export adjustments are smaller in more exposed and more rigid industries, and that the negative dem_share association persists even after accounting for these controls. [18] Import specifications with the same controls show small and statistically insignificant coefficients, reinforcing the asymmetry between import and export responses. [18]
 
+**Table 2. WLS controls (2016-2017 vs 2018-2019) coefficients.** [18]
+
+| Outcome | dem_share coef (p) | exposure_share coef (p) | rigidity coef (p) | N |
+| --- | --- | --- | --- | --- |
+| exports | -1.360 (0.013) | -2.187 (0.050) | -0.0016 (0.014) | 25 |
+| imports | -0.466 (0.025) | 0.124 (0.789) | -0.0004 (0.156) | 25 |
+
+
 Notably, the simple correlations between dem_share and the two controls are close to zero (approximately 0.016 with exposure and 0.095 with rigidity), which suggests that dem_share is not merely a mechanical proxy for these variables. [18] Even so, the limited sample size means that multicollinearity and leverage points can still influence coefficient stability. [18] Taken together, these results suggest that export adjustments are more tightly linked to industry structure and exposure than import adjustments, and that any partisanship signal is more pronounced on the export side.
 
 ### 5.3 Panel fixed effects
@@ -172,10 +191,30 @@ Notably, the simple correlations between dem_share and the two controls are clos
 Panel fixed-effects results (2,736 industry-month observations per specification) do not show statistically significant dem_share x post interactions for either imports or exports. [18] This indicates that, once industry fixed effects and common time shocks are controlled for, there is no robust evidence of differential post-tariff shifts by workforce partisanship.
 For example, using a post period starting July 2018, the import interaction coefficient is approximately -0.126 (p = 0.637) and the export interaction coefficient is about -1.05 (p = 0.356). [18] Starting the post period in 2019 yields similarly insignificant estimates. [18] These results indicate that any cross-sectional association does not translate into a stable within-industry shift once fixed effects absorb time-invariant differences. [18]
 
+**Table 3. Panel fixed-effects dem_share x post interactions.** [18]
+
+| Outcome | Post start | dem_share x post coef | p-value | N |
+| --- | --- | --- | --- | --- |
+| exports | 2018-07-01 | -1.047 | 0.356 | 2736 |
+| imports | 2018-07-01 | -0.126 | 0.637 | 2736 |
+| exports | 2019-01-01 | -0.960 | 0.365 | 2736 |
+| imports | 2019-01-01 | -0.142 | 0.618 | 2736 |
+
+
 ### 5.4 Event studies and pre-trends
 
 Event-study interactions reveal significant pre-period coefficients for exports. In the main 2016-2024 event study, 2016 interactions are significant for both imports and exports, indicating differential pre-period dynamics. [18] In the extended 2012-2017 pre-trend check, export interactions for 2014 and 2017 are negative and significant. [18] These patterns suggest that export trends differed by dem_share even before the tariff period, undermining a causal interpretation of the cross-sectional post-period results.
 The pre-trend violations are especially salient for exports: in the 2012-2017 pre-period event study, the 2014 interaction is about -0.74 (p = 0.006) and the 2017 interaction is about -1.26 (p = 0.029). [18] These estimates imply that higher dem_share industries were already on different export trajectories before the tariff window, which weakens the causal interpretation of post-2018 differences. [18]
+
+**Table 4. Significant pre-period event-study interactions.** [18]
+
+| Dataset | Year | coef (dem_share x year) | p-value | Source window |
+| --- | --- | --- | --- | --- |
+| exports | 2014 | -0.742 | 0.006 | 2012-2017 pretrend |
+| exports | 2017 | -1.259 | 0.029 | 2012-2017 pretrend |
+| exports | 2016 | 1.231 | 0.018 | 2016-2024 event study |
+| imports | 2016 | 0.519 | 0.003 | 2016-2024 event study |
+
 
 ### 5.5 County exposure correlation
 
@@ -216,6 +255,8 @@ Several limitations are substantial. First, the partisanship proxy relies on cou
 Fourth, the small cross-sectional sample (about 25 NAICS-3 industries) limits statistical power and increases sensitivity to outliers. [18] Fifth, pre-trend violations in exports weaken causal claims; the results are best interpreted as descriptive correlations rather than evidence of tariff-induced partisan effects. [18]
 
 Robustness checks reinforce the leverage concern: outlier treatment and leave-one-out exclusions can materially change export coefficients in the main window. [19] Finally, the analysis does not model endogeneity in policy design or industry behavior. Political coalitions may influence tariff targeting and responses simultaneously, and the models here do not disentangle those dynamics. The panel and event-study structures help illuminate timing but do not fully address these concerns. [18]
+
+Ethical considerations are modest but nontrivial. The analysis relies on aggregated county and industry data, so it does not identify individuals, but ecological inference risks remain and partisan labels should not be interpreted as individual beliefs. Results are descriptive and should not be used to infer causal impacts on specific communities.
 
 ---
 
